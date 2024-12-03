@@ -51,6 +51,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.room:room-runtime:2.6.1") // Room 런타임
     implementation("androidx.room:room-ktx:2.6.1") // Room 코틀린 확장
     kapt("androidx.room:room-compiler:2.6.1") // Room 컴파일러
